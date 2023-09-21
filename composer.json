@@ -1,0 +1,27 @@
+{
+  "name": "glpzzz/yii2-htmx-asset",
+  "description": "Asset bundle to provide HTMX for Yii2 apps",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "htmx",
+    "asset",
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Alejandro López López",
+      "email": "glpz@daxslab.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "npm-asset/htmx": "^0.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "glpzzz\\htmx\\": "src"
+    }
+  }
+}
