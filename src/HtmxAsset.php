@@ -25,6 +25,6 @@ class HtmxAsset extends AssetBundle
      * @inheritDoc
      */
     public $js = [
-        'htmx.js',
+        'dist/htmx.min.js',
     ];
 }
