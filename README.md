@@ -25,7 +25,4 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \glpzzz\htmx\AutoloadExample::widget(); ?>```
+Once the extension is installed, simply use it in your code by adding it as an asset bundle of your application

@@ -6,7 +6,7 @@
     "yii2",
     "extension",
     "htmx",
-    "asset",
+    "asset"
   ],
   "license": "MIT",
   "authors": [
