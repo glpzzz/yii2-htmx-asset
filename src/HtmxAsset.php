@@ -15,7 +15,7 @@ class HtmxAsset extends AssetBundle
     /**
      * @inheritDoc
      */
-    public $sourcePath = '@npm/htmx/';
+    public $sourcePath = '@npm/htmx.org/dist/';
 
     public $jsOptions = [
         'position' => View::POS_HEAD,
@@ -25,6 +25,6 @@ class HtmxAsset extends AssetBundle
      * @inheritDoc
      */
     public $js = [
-        'dist/htmx.min.js',
+        'htmx.min.js',
     ];
 }
